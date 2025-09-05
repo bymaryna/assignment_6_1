@@ -14,4 +14,13 @@ def main():
 if __name__ == "__main__":
     main()
 
+    if op == "+":
+        print("Result:", num1 + num2)
+    elif op == "-":
+        print("Result:", num1 - num2)
+    elif op == "*":
+        print("Result:", num1 * num2)
+    else:
+        print("Unsupported operation.")
+
     
